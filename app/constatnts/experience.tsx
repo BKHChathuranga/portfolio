@@ -1,0 +1,5 @@
+export const experienceList = [
+    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]},
+    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]},
+    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]}
+]

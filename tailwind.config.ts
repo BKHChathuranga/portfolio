@@ -13,8 +13,20 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontSize:{
+        mainTitle: ['6.25rem', {fontWeight:"800"}],
+        subTitle:['5.938rem',{fontWeight:700}],
+        normalTitle:['3rem',{fontWeight:600}],
+        sectionTitle:['4rem',{fontWeight:600}]
+      },
+      fontFamily:{
+        sans: ["Poppins", 'sans-serif']
+      }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["sunset"],
+  },
 }
 export default config
