@@ -15,7 +15,7 @@ const AboutSection = () => {
         </div>
         <div className='col-span-6'>
           <div className='text-mainTitle'><h1 className=''>Hello!</h1></div>
-          <div className='sm:text-subTitle text-slate-300'><h2 className=''>I'm Hashan,</h2></div>
+          <div className='sm:text-subTitle text-slate-300'><h2>{`I'm Hashan,`}</h2></div>
           <div className='sm:text-normalTitle text-l'>
             a <Typewriter
               words={['Full-Stack Software Engineer', 'UI/UX Engineer', 'AI/ML Enthusiast']}
