@@ -10,7 +10,7 @@ import Publications from './components/Publications';
 const HomePage = () => {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <div className='flex flex-col justify-center max-w-[1440px] sm:px-5 h-full text-center md:px-20 sm:mx-auto mx-5'>
         <AboutSection />
         <div className='divider'></div>
