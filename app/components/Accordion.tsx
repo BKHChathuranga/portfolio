@@ -12,7 +12,7 @@ type Props = {
 const Accordion: FC<Props> = (props: Props) => {
     return (
         
-            <div className="collapse collapse-arrow bg-base-200 py-2 lg:w-2/4">
+            <div className="collapse collapse-arrow bg-base-200 py-2 lg:w-2/4 w-full">
                 <input type="radio" name="my-accordion-2" defaultChecked={true}/>
                 <div className="flex flex-row justify-between collapse-title">
                    <p className='text-xl font-medium'>{props.heading}</p> 

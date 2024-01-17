@@ -14,10 +14,10 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontSize:{
-        mainTitle: ['6.25rem', {fontWeight:"800"}],
-        subTitle:['5.938rem',{fontWeight:700}],
-        normalTitle:['3rem',{fontWeight:600}],
-        sectionTitle:['4rem',{fontWeight:600}]
+        mainTitle: ['4.8rem', {fontWeight:"800"}],
+        subTitle:['4.5rem',{fontWeight:700}],
+        normalTitle:['2.5rem',{fontWeight:600}],
+        sectionTitle:['3rem',{fontWeight:500}]
       },
       fontFamily:{
         sans: ["Poppins", 'sans-serif']

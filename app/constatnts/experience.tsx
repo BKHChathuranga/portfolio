@@ -1,5 +1,5 @@
 export const experienceList = [
-    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]},
-    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]},
-    {index: 0, heading:"Trainee Software Engineer | Rootcode ", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]}
+    {index: 0, heading:"Trainee Software Engineer | Rootcode", timePeriod:"(2022 Dec-2023 Jun)",body:"Worked in individual intern projects and Project ConverseUp as trainee software engineer", technologies:["ReactJS", "ReactTS", "Firebase", "NestJS", "Tailwind CSS"]},
+    {index: 1, heading:"IT Instructor | Tekxila Cloud School", timePeriod:"(2022 Jan-2022 July)",body:"Worked as a IT instructor and gathered experience in technology coaching while sharpening my IT knowledge", technologies:["Python", " Computer Architecture"]},
+    {index: 2, heading:"Full-Stack Developer | Codiax", timePeriod:"(2022 Apr-2023 Dec)",body:"Worked in a salon management system as full-stack developer. Gathered experience from the requirements gathering and client handling to delivering a working quality product.", technologies:["ReactJS", "NodeJS", "MongoDB"]}
 ]
