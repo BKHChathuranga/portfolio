@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import { projectsList } from '../constatnts/MyWork'
+import { projectsList } from '../constants/MyWork'
 
 const MyWorkSection = () => {
     return (

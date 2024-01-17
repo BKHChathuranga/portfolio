@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card'
-import { skillList } from '../constatnts/SkillsList'
+import { skillList } from '../constants/SkillsList'
 
 const WhatIDoSection = () => {
     return (

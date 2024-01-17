@@ -1,6 +1,6 @@
 import React from 'react'
 import Accordion from './Accordion'
-import { experienceList } from '../constatnts/Experience'
+import { experienceList } from '../constants/Experience'
 const Experience = () => {
   return (
     <section id='experience' className='scroll-mt-16'>
