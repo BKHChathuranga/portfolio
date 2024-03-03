@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
+import Logo from '../../public/LOGO.png';
+import Image from 'next/image';
 
 const NavBar = () => {
   return (
@@ -18,7 +20,7 @@ const NavBar = () => {
               <li><Link href="#publications">Publications</Link></li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <Image src={Logo} height={50} alt='logo'/>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

@@ -1,0 +1,8 @@
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Ensure content is on top of the video */
+    object-fit: cover; /* adjust as needed */
+  }
+  

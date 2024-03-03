@@ -10,7 +10,7 @@ const WhatIDoSection = () => {
             </div>
             <div className='flex flex-row justify-center my-10 gap-8 flex-wrap'>
                 {skillList.map((skill,index) =>(
-                    <Card key={index} head={skill.heading} description={skill.description} technology={skill.technologies}/>
+                    <Card key={index} head={skill.heading} description={skill.description} technology={skill.technologies} icon={skill.icon}/>
                 ))}
             </div>
         </section>

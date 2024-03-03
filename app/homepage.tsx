@@ -18,7 +18,9 @@ const HomePage = () => {
         <div className='divider'></div>
         <MyWorkSection />
         <div className='divider'></div>
+        <div className='w-full'>
         <Experience />
+        </div>
         <div className='divider'></div>
         <Publications />
       </div>
