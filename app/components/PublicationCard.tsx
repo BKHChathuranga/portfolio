@@ -5,27 +5,26 @@ type Props = {
   title: string;
   description: string;
   image: string;
+  link: string
 };
 
 const PublicationCard: FC<Props> = (props: Props) => {
   return (
-    <a href='https://medium.com/introduction-to-typescript/echarts-for-react-74b1240dffd7' target='_blank' rel="noopener noreferrer" className='group'>
+    <a href={props.link} target='_blank' rel="noopener noreferrer" className='group'>
       <div
-        className="w-96 h-48 shadow-none group-hover:scale-105 relative rounded-xl duration-300 ease-in-out hover:transition-all"
+        className="flex flex-col bg-gradient-to-r from-[#2a3338] rounded-xl md:w-[calc(100vw/4)] gap-5 p-5 hover:bg-gradient-to-r hover:from-[#41494e] transition ease-linear border-gray-600 border-s-2 hover:scale-[0.95] cursor-pointer"
       >
-        <Image
-          src={props.image}
-          alt="Shoes"
-          layout="fill"
-          objectFit="fit"
-          className="absolute inset-0  hover:transition-all "
-        />
-        <div className="absolute inset-0 group-hover:bg-black opacity-50">
-          {/* Overlay for text visibility */}
+        <div className='flex w-full justify-center'>
+          <img
+            src={props.image}
+            alt="Shoes"
+            className="w-full object-cover h-40 rounded-xl object-center"
+          />
         </div>
-        <div className="card-body absolute inset-0 z-20">
-          <h2 className="card-title text-white text-2xl font-semibold">{props.title}</h2>
-          <p className="text-white">{props.description}</p>
+
+        <div>
+          <h2 className="card-title  text-2xl font-semibold text-left mb-5 text-orange-500">{props.title}</h2>
+          <p className="text-[oklch(0.756879 0.123666 76.890484 / 1)] text-left">{props.description}</p>
         </div>
       </div>
     </a>

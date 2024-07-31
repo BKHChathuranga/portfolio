@@ -32,8 +32,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          
-          <a className="btn">Button</a>
+          <a className="btn transition ease-in-out delay-150 hover:scale-110 duration-300 bg-gradient-to-r from-[#1d262b] via-[#2a3338] to-[#41494e]" href='Hashan Chathuranga.pdf' target='blank' rel="noopener noreferrer">Resume</a>
         </div>
       </div></div>
   )
