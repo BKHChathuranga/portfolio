@@ -12,7 +12,7 @@ const PublicationCard: FC<Props> = (props: Props) => {
   return (
     <a href={props.link} target='_blank' rel="noopener noreferrer" className='group'>
       <div
-        className="flex flex-col bg-gradient-to-r from-[#2a3338] rounded-xl md:w-[calc(100vw/4)] gap-5 p-5 hover:bg-gradient-to-r hover:from-[#41494e] transition ease-linear border-gray-600 border-s-2 hover:scale-[0.95] cursor-pointer"
+        className="flex flex-col bg-gradient-to-r from-[#2a3338] rounded-xl md:w-[calc(100vw/3)] lg:w-[calc(100vw/4)] w-[calc(100vw-50px)] gap-5 p-5 hover:bg-gradient-to-r hover:from-[#41494e] transition ease-linear border-gray-600 border-s-2 hover:scale-[0.95] cursor-pointer"
       >
         <div className='flex w-full justify-center'>
           <img
